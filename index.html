@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BeeHive encrypted backups</title>
+<style>body{max-width:45rem;margin:4rem auto;padding:0 1.2rem;font:18px/1.6 system-ui,sans-serif;color:#243238;background:#fafaf7}a{color:#075c72}h1{line-height:1.2}</style>
+<main>
+<h1>BeeHive encrypted backups</h1>
+<p>A personal application for saving encrypted home-server configuration backups to the owner's Google Drive. It is operated by its owner for their own use and has no public sign-up.</p>
+<p>The server creates and encrypts an archive locally, uploads the encrypted file using rclone, downloads it to verify its checksum, and maintains a limited set of verified recovery copies. The decryption key is kept separately from Google Drive.</p>
+<p>The application requests Google's <code>drive.file</code> permission, covering only specific files used with this application. It does not request access to all Google Drive files, Gmail, contacts, or calendars.</p>
+<p>Google sign-in is used only to authorize the owner's backup connection. This website performs no sign-in and collects no form submissions.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</html>

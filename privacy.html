@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — BeeHive encrypted backups</title>
+<style>body{max-width:45rem;margin:4rem auto;padding:0 1.2rem;font:18px/1.6 system-ui,sans-serif;color:#243238;background:#fafaf7}a{color:#075c72}h1{line-height:1.2}</style>
+<main>
+<h1>Privacy policy</h1>
+<p>BeeHive encrypted backups · Effective October 16, 2026</p>
+<p>This application is operated solely by its owner to back up their personal home-server configuration. It is not offered as a service to other people.</p>
+<h2>Google data and purpose</h2>
+<p>The application uses the Google Drive <code>drive.file</code> permission to create, list, upload, download, and remove specific encrypted backup files and verification receipts used with this application. Access is used only to store backups, verify their integrity, and maintain recovery history.</p>
+<p>Backups are encrypted on the owner's server before upload. Google Drive receives ciphertext and verification metadata such as timestamped filenames, file sizes, and checksums. The private decryption key is stored separately. The application does not request Gmail, contact, calendar, or unrestricted Drive access.</p>
+<h2>Storage, sharing, and security</h2>
+<p>Encrypted backups are stored in the owner's Google Drive and on their server. OAuth credentials and refresh tokens are held in protected local/server configuration files. Operational logs record backup status and verification metadata; they do not intentionally include credentials or backup contents.</p>
+<p>The application does not sell Google user data, use it for advertising, share it with other users, or use it to train artificial-intelligence models. Google processes stored files and authorization under its own terms and privacy policy. This public information site contains no analytics scripts, advertising, or input forms; its hosting provider may maintain ordinary access logs.</p>
+<h2>Retention and control</h2>
+<p>The configured schedule retains four verified weekly full backup generations. Older legacy or unverified files may be preserved for recovery review. Failed verification does not authorize removal of existing recovery copies. Files moved to Google Drive Trash remain subject to Google's trash-retention behavior.</p>
+<p>The owner can revoke the application's access through their Google Account connections, stop the backup schedule on their server, and delete backup files directly in Google Drive. Revoking access stops future authorized operations; it does not itself delete existing backups. Local copies must be managed separately.</p>
+<h2>Contact and changes</h2>
+<p>The application owner is also its sole intended user and administers its Google Cloud project and backup configuration. They can review the application's support contact on Google's consent screen. This policy will be updated if the application's data practices change.</p>
+<p><a href="index.html">About BeeHive encrypted backups</a></p>
+</main>
+</html>
